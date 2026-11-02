@@ -1,4 +1,4 @@
-const CACHE='gwan-juyeok-v1.3-wings';
+const CACHE='gwan-juyeok-v1.4-wings';
 const ASSETS=['./','./index.html','./manifest.webmanifest','./icon-192.png','./icon-512.png'];
 self.addEventListener('install',e=>e.waitUntil((async()=>{const c=await caches.open(CACHE);await c.addAll(ASSETS);await self.skipWaiting()})()));
 self.addEventListener('activate',e=>e.waitUntil((async()=>{for(const k of await caches.keys())if(k.startsWith('gwan-juyeok-')&&k!==CACHE)await caches.delete(k);await self.clients.claim()})()));
