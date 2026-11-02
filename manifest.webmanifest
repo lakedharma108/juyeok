@@ -1,11 +1,15 @@
 {
-  "name": "관 觀 · 주역으로 읽는 변화",
+  "id": "/",
+  "name": "관 · 주역",
   "short_name": "관 주역",
-  "start_url": "./",
-  "scope": "./",
+  "lang": "ko",
+  "description": "동전으로 묻고 본괘·지괘·동효의 원문과 풀이로 읽는 주역",
+  "start_url": "/",
+  "scope": "/",
   "display": "standalone",
   "background_color": "#f4f1e9",
   "theme_color": "#f4f1e9",
+  "prefer_related_applications": false,
   "icons": [
     {
       "src": "icon-192.png",
